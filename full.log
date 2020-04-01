@@ -1,0 +1,29 @@
+2020-04-01 15:54:11.845  INFO 60304 --- [main] c.o.w.WorksheetModellingApplication      : Starting WorksheetModellingApplication on HQIT-TATSIK-OLI with PID 60304 (C:\Users\olivier.tatsinkou\Documents\NetBeansProjects\worksheet_Modelling\target\classes started by olivier.tatsinkou in C:\Users\olivier.tatsinkou\Documents\NetBeansProjects\worksheet_Modelling)
+2020-04-01 15:54:11.847  INFO 60304 --- [main] c.o.w.WorksheetModellingApplication      : No active profile set, falling back to default profiles: default
+2020-04-01 15:54:12.810  INFO 60304 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-01 15:54:12.908  INFO 60304 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 87ms. Found 3 JPA repository interfaces.
+2020-04-01 15:54:13.515  INFO 60304 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$8701b32d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-01 15:54:13.568  INFO 60304 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2020-04-01 15:54:14.239  INFO 60304 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2020-04-01 15:54:14.253  INFO 60304 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-01 15:54:14.258  INFO 60304 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-01 15:54:14.259  INFO 60304 --- [main] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.17] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-04-01 15:54:14.260  INFO 60304 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+2020-04-01 15:54:14.261  INFO 60304 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-04-01 15:54:14.261  INFO 60304 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-04-01 15:54:15.368  INFO 60304 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+2020-04-01 15:54:15.540  INFO 60304 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-01 15:54:15.541  INFO 60304 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3655 ms
+2020-04-01 15:54:15.826  INFO 60304 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-04-01 15:54:16.085  INFO 60304 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-04-01 15:54:16.093  INFO 60304 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2020-04-01 15:54:16.370  INFO 60304 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-01 15:54:16.456  INFO 60304 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-01 15:54:16.635  INFO 60304 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-01 15:54:17.053  INFO 60304 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-04-01 15:54:17.900  INFO 60304 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-01 15:54:17.908  INFO 60304 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-01 15:54:18.913  WARN 60304 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-01 15:54:19.078  INFO 60304 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-01 15:54:19.578  INFO 60304 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2020-04-01 15:54:19.580  INFO 60304 --- [main] c.o.w.WorksheetModellingApplication      : Started WorksheetModellingApplication in 8.662 seconds (JVM running for 9.075)
