@@ -78,7 +78,7 @@
                 </exclusion>
             </exclusions>
         </dependency>
-        
+
         <!-- wrapper -->
         <dependency>
             <groupId>tanukisoft</groupId>
@@ -90,6 +90,7 @@
 
     <build>
         <finalName>Modelling</finalName>
+        
         
        
         <plugins>
@@ -125,8 +126,8 @@
                             <repositoryLayout>flat</repositoryLayout>
                             <target>${project.build.directory}/daemon</target>
 
-                            <configurationDirectory>etc</configurationDirectory>
-                            <configurationSourceDirectory>etc</configurationSourceDirectory>
+                            <configurationDirectory>config</configurationDirectory>
+                            <configurationSourceDirectory>config</configurationSourceDirectory>
                             <copyConfigurationDirectory>true</copyConfigurationDirectory>
 
                             <includeConfigurationDirectoryInClasspath>true</includeConfigurationDirectoryInClasspath>
@@ -138,7 +139,7 @@
                                     <wrapperMainClass>org.tanukisoftware.wrapper.WrapperSimpleApp</wrapperMainClass>
                                     <mainClass>com.olivier.worksheet.WorksheetModellingApplication</mainClass>
                                     <!-- <commandLineArguments> 
-                                            <commandLineArgument>start</commandLineArgument> 
+                                            <commandLineArgument>start</commandLinergument> 
                                     </commandLineArguments> -->
                                     <jvmSettings> 
                                         <initialMemorySize>20M</initialMemorySize> 

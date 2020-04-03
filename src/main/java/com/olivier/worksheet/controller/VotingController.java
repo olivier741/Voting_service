@@ -11,15 +11,15 @@ import com.olivier.worksheet.model.dao.VoterDao;
 import com.olivier.worksheet.model.dao.VotingRecordDao;
 import com.olivier.worksheet.model.service.MotionService;
 import java.util.Date;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  *
@@ -28,7 +28,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class VotingController {
 
-    private static final Logger logger = LoggerFactory.getLogger(VotingController.class);
+    private static Logger logger = LoggerFactory.getLogger(VotingController.class);
 
     @Autowired
     private VoterDao voterDao;
@@ -51,7 +51,7 @@ public class VotingController {
         } catch (Exception e) {
            votRsp.setError_code("-1");
            votRsp.setDescription("error: cannot insert");
-           logger.info("error: cannot insert");
+           logger.error("error: cannot insert",e);
         }
 
         return votRsp;
